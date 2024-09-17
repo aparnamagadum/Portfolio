@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import axios from "axios"
 import Input from './Input'
 import "./Contact.css"
-// import Button from '../projectSection/Button'
+import Button from '../projectSection/Button'
 import Nav from '../navbar/Nav'
 import Footer from '../footer/Footer'
 function Contact() {
@@ -32,7 +32,7 @@ function Contact() {
      <Input type="email" placeholder="enter your email" onChange={(e)=>{setEmail(e.target.value)}}/>
      <Input type="number" placeholder="enter your phone number" onChange={(e)=>{setPhone(e.target.value)}}/>
      <textarea cols="40" rows="5" placeholder="add your text" onChange={(e)=>{setText(e.target.value)}}/>
-     <button className="btn" type="submit">Send Message</button>
+     <Button title="Send Message"/>
      <br />
      {msg && alert("Message sent successfully")}
     </form>

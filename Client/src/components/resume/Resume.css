@@ -19,13 +19,3 @@
    color: white;
    margin: auto;
 }
-.btn:hover{
-    transform: scale(1.1);
-}
-.btn{
-    padding: 20px;
-     border:none;
-    background-color:white;
-    border-radius: 20px;
-    cursor: pointer;   
-}
