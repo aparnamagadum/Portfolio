@@ -24,3 +24,13 @@ border-radius: 10px;
 textarea{
     outline: none;
 }
+.btn{
+    padding: 20px;
+     border:none;
+    background-color:white;
+    border-radius: 20px;
+    cursor: pointer;   
+}
+.btn:hover{
+    transform: scale(1.1);
+}
