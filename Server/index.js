@@ -7,9 +7,7 @@ const PORT=process.env.port || 4000;
 const app=express();
 app.use(express.json());
 app.use(express.urlencoded({extended:true}));
-app.use(cors({
-    origin:"*"
-}));
+app.use(cors());
 //console.log(process.env.My_USERNAME);
 //console.log(process.env.My_PASSWORD);
 app.post('/sendMail' ,(req,res)=>{
