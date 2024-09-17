@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.projectSection{
+    width: 100vw;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShPJMBfsVBMcO9fOm9i1MdCdFT0vb7cy-qig&s");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    gap:100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.heading{
+    text-align: center;
+}
+.projects{
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    gap:30px;
+    margin: auto;
+}

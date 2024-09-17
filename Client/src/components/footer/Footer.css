@@ -1,0 +1,13 @@
+.footer-section{
+    width: 100vw;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #0C0F3A;
+    align-items: center;
+    color: white
+}
+.Contact{
+color: white;
+font-size: larger;
+}

@@ -1,0 +1,27 @@
+.home-container{
+    width: 70%;
+    height: 350px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+     color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.left-container{
+    width: 40%;
+    height: 350px;
+    display: flex;
+   flex-direction: column;
+   justify-content: center;
+   gap: 20px;
+}
+.right-container{
+    width: 40%;
+    height: 350px;
+}
+.img{
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+}

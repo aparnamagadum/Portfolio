@@ -1,0 +1,15 @@
+.btn{
+    padding: 20px;
+     border:none;
+    background-color:white;
+    border-radius: 20px;
+    cursor: pointer;   
+}
+.link{
+    text-decoration: none;
+    font-size: larger;
+    color:#262940;
+}
+.btn:hover{
+    transform: scale(1.1);
+}

@@ -1,0 +1,21 @@
+.resume-container{
+    height: 100vh;
+    width: 100vw;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShPJMBfsVBMcO9fOm9i1MdCdFT0vb7cy-qig&s");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.resume{
+   height: 40%;
+   width: 50%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-around;
+   color: white;
+   margin: auto;
+}

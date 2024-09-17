@@ -1,0 +1,28 @@
+.Skillset{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    margin: auto;
+}
+.about-conatiner{
+    display: flex;
+    flex-direction: column;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShPJMBfsVBMcO9fOm9i1MdCdFT0vb7cy-qig&s");
+    background-repeat: no-repeat;
+    background-size: cover;
+    gap: 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.skill-container{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap:30px;
+    color: white;
+}
+span{
+    color:white
+}

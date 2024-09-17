@@ -1,0 +1,28 @@
+.home{
+    width: 100vw;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShPJMBfsVBMcO9fOm9i1MdCdFT0vb7cy-qig&s");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    position: relative;
+    z-index: 1;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.Social-media{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    gap: 20px;
+}
+.connection{
+    display: flex;
+    gap: 20px;
+    font-size: xx-large;
+}
+a{
+color: white;
+}

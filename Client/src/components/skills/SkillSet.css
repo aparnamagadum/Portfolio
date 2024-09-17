@@ -1,0 +1,17 @@
+.skill{
+    height: 150px;
+    width: 200px;
+    display: flex;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    background-color:#0C0F3A;
+    box-shadow: 1px 1px 20px #faebd7;
+}
+.logo{
+    color:white;
+    font-size: 500%; 
+}
+.logo:hover{
+    transform: scale(1.2);
+}

@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav-conatiner{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:#0C0F3A;
+    width: 100vw;
+    height: 80px;
+    color: white;
+}
+ul{
+    display: flex;
+    gap:30px;
+}
+li{
+    list-style: none;
+    font-size: x-large;
+    cursor: pointer;
+    color: white;
+}
+.li a {
+    text-decoration: none;
+    color: white;
+  }
+.active {
+    color: white; /* Change color for active link */
+    font-weight: bold; /* Make active link bold */
+    border-bottom: 2px solid white; /* Add a border below the active link */
+  }
