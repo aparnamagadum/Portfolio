@@ -1,6 +1,6 @@
 import React from 'react';
 import "./Resume.css"
-import Button from '../projectSection/button';
+import Button from '../projectSection/Button.jsx';
 import Nav from '../navbar/Nav';
 import Footer from '../footer/Footer';
 function Resume() {
