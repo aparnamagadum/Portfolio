@@ -1,6 +1,7 @@
 import React from 'react'
 import './ProjectCard.css'
-import Button from './button'
+// import Button from './button'
+import Button from './Button.jsx'
 function ProjectCard({title , image , para ,href , href1 , icon}) {
   return (
     <div className='card-container'>
