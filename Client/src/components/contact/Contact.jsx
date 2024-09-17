@@ -14,7 +14,7 @@ function Contact() {
  async function handler(e){
   e.preventDefault();
   try{
-    await axios.post("http://localhost:3939/sendMail" , {name , email , phone , text});
+    await axios.post("https://portfolio-backend-zr3g.onrender.com/sendMail" , {name , email , phone , text});
     //console.log("email sent");
     setMsg(true);
   }
