@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import axios from "axios"
 import Input from './Input'
 import "./Contact.css"
-import Button from '../projectSection/button'
+import Button from '../projectSection/Button'
 import Nav from '../navbar/Nav'
 import Footer from '../footer/Footer'
 function Contact() {
