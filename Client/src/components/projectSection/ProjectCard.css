@@ -8,6 +8,9 @@
     justify-content: space-evenly;
     align-items: center;
 }
+.card-container:hover{
+    box-shadow: 1px 1px 20px white;
+}
 .name , .tect-stack{
     color:white;
     text-align: center; 
