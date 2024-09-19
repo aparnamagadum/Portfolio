@@ -17,6 +17,10 @@ function Contact() {
     await axios.post("https://portfolio-backend-zr3g.onrender.com/sendMail" , {name , email , phone , text});
     //console.log("email sent");
     setMsg(true);
+    setName("");
+    setEmail("");
+    setPhone("");
+    setText("");
   }
   catch(err){
     console.log(err); 
