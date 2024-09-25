@@ -2,6 +2,7 @@ import express from 'express';
 import nodemailer from 'nodemailer';
 import dotenv from 'dotenv'
 import cors from 'cors';
+import path from "path";
 dotenv.config();
 const PORT=process.env.port || 4000;
 const app=express();
@@ -10,6 +11,12 @@ app.use(express.urlencoded({extended:true}));
 app.use(cors());
 //console.log(process.env.My_USERNAME);
 //console.log(process.env.My_PASSWORD);
+app.use(express.static(path.join(__dirname, 'Client/build')));
+
+// Handle React routing, return all requests to index.html
+app.get('*', (req, res) => {
+  res.sendFile(path.join(__dirname + '/Client/build/index.html'));
+});
 app.post('/sendMail' ,(req,res)=>{
     const {name , email , phone ,text}=req.body;
     const transporter=nodemailer.createTransport({
